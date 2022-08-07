@@ -79,12 +79,13 @@
   
   /* Inicio Formulario*/
    
-  .Formulario{ display: flex; justify-content: center; flex-direction: column; width:550px; font-weight: bold; text-align: center; margin:  50px auto; font-size: 25px; background-color: beige;} 
+  .Formulario{ display: flex; justify-content: center; align-items: center; flex-direction: column; width:550px; font-weight: bold; text-align: center; margin:  50px auto; font-size: 25px; background-color: beige;} 
   .Formulario legend{font-size: 50px}
   .Formulario p{font-style: oblique; display: flex;flex-direction: column;align-content: center;flex-wrap: wrap;}
   .Formulario input{width: 350px; height: 23px;}
   .terminos{ font-size: 15px;}
-
+  
+ 
   /*Fin Formulario*/
   
   .Nosotros{font-size: 50px;font-weight: bold;text-align: center;}

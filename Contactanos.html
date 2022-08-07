@@ -41,18 +41,37 @@
 
       <!--Inicio formulario-->
       <div class="container">
+        
       <form>
       <fieldset class="Formulario">
       <Legend>contactanos</Legend><br><br>
 
-      <p>Nombre:   <input type="text" name="Nombre" size="20" placeholder="Nombre" required></p><br>
-      <p>Email:    <input type="text" name="Email" size="20" placeholder="Ejemplo@hotmail.com" required></p><br>
-      <p>Telefono: <input type="text" name="Telefono" size="20" placeholder="+569 49530450" required></p><br>
-      <p>Mensaje:  <textarea name="Texto" id="Texto" cols="30" rows="10" required style="width: 360px; height: 135px;"></textarea><br>
+      <div class="mb-3">
+      <label for="Nombre" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="Nombre" aria-describedby="emailHelp" required placeholder="Name">
+      </div>
+
+      <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required placeholder="name@example.com">
+      </div>
+      
+      <div class="mb-3">
+      <label for="Phone" class="form-label">Telefono</label>
+      <input type="text" class="form-control" id="Phone" aria-describedby="emailHelp" required placeholder="+569 38464845" >
+      </div>
+    
+      
+      <div class="form-group">
+        <label for="Mensaje">Mensaje</label>
+        <textarea class="form-control" id="Mensaje" rows="5" required ></textarea>
+      </div>
+      
+      
      
-      <div>
-      <input type="submit" value="Enviar mensaje" >
-      </div>   
+      
+      <br><button type="submit" class="btn btn-primary">Submit</button>
+     </div>
       </fieldset>
       </form>
       </div>
